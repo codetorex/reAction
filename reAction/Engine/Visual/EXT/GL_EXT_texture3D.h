@@ -1,0 +1,9 @@
+#ifndef EXT_3DTEXTUREH
+#define EXT_3DTEXTUREH
+
+extern PFNGLTEXIMAGE3DPROC glTexImage3D;
+extern PFNGLTEXSUBIMAGE3DPROC glTexSubImage3D;
+extern PFNGLCOPYTEXSUBIMAGE3DPROC glCopyTexSubImage3D;
+
+
+#endif

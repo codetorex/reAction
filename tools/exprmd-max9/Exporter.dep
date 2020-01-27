@@ -1,0 +1,15 @@
+# Microsoft Developer Studio Generated Dependency File, included by Exporter.mak
+
+.\dllentry.cpp : \
+	".\exporter.h"\
+	".\StdAfx.h"\
+	
+
+.\Exporter.cpp : \
+	".\exporter.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

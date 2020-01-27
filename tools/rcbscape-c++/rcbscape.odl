@@ -1,0 +1,70 @@
+// rcbscape.odl : type library source for rcbscape.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (rcbscape.tlb).
+
+[ uuid(4A4BD752-0605-4233-B0EC-870D5ACAB8CA), version(1.0) ]
+library Rcbscape
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CRcbscapeDoc
+	
+	[ uuid(455A5C08-8430-40F1-918A-C5A022C1C9AF) ]
+	dispinterface IRcbscape
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CRcbscapeDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CRcbscapeDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CRcbscapeDoc
+	
+	[ uuid(C0D300AD-C47D-4995-9020-0385854B9C7E) ]
+	coclass rcbs
+	{
+		[default] dispinterface IRcbscape;
+	};
+
+
+	//  Primary dispatch interface for crighty
+	
+	[ uuid(0B913916-9882-4080-AEA4-5F25EF5B3DF0) ]
+	dispinterface Icrighty
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(crighty)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(crighty)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for crighty
+
+	[ uuid(FDCDFA99-40DF-4F28-8F8B-64BD206A87FB) ]
+	coclass crighty
+	{
+		[default] dispinterface Icrighty;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

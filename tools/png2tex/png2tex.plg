@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: png2tex - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP39A7.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/png2tex.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Burak575\Desktop\projects\software\reAction\tools\png2tex\png2tex.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP39A7.tmp" 
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP39A8.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/png2tex.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Burak575\Desktop\projects\software\reAction\tools\png2tex\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP39A8.tmp" 
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP39A9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/png2tex.pdb" /machine:I386 /nodefaultlib:"libc" /out:"Release/png2tex.exe" 
+".\Release\png2tex.obj"
+".\Release\StdAfx.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP39A9.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+png2tex.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/png2tex.bsc"  ".\Release\StdAfx.sbr" ".\Release\png2tex.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+png2tex.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

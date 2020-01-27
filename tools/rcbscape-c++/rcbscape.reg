@@ -1,0 +1,19 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.rcb = rcbs
+HKEY_CLASSES_ROOT\rcbs\shell\open\command = RCBSCAPE.EXE %1
+HKEY_CLASSES_ROOT\rcbs\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\rcbs\shell\open\ddeexec\application = RCBSCAPE
+    ; note: the application is optional
+    ;  (it defaults to the app name in "command")
+
+HKEY_CLASSES_ROOT\rcbs = reAction Cabinet
+HKEY_CLASSES_ROOT\rcbs\CLSID = {C0D300AD-C47D-4995-9020-0385854B9C7E}
+
+HKEY_CLASSES_ROOT\CLSID\{C0D300AD-C47D-4995-9020-0385854B9C7E} = reAction Cabinet
+HKEY_CLASSES_ROOT\CLSID\{C0D300AD-C47D-4995-9020-0385854B9C7E}\ProgId = rcbs
+HKEY_CLASSES_ROOT\CLSID\{C0D300AD-C47D-4995-9020-0385854B9C7E}\LocalServer32 = RCBSCAPE.EXE

@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlib - Win32 LIB ASM Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3960.bat" with contents
+[
+@echo off
+ml.exe /nologo /c /coff /Cx /Fo".\Win32_LIB_ASM_Release\inffas32.obj" "..\..\contrib\masmx86\inffas32.asm"
+]
+Creating command line "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3960.bat"
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3961.bat" with contents
+[
+@echo off
+ml.exe /nologo /c /coff /Cx /Fo".\Win32_LIB_ASM_Release\gvmat32.obj" "..\..\contrib\masmx86\gvmat32.asm"
+]
+Creating command line "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3961.bat"
+Creating command line "rc.exe /l 0x409 /fo"Win32_LIB_ASM_Release/zlib1.res" /i "\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\win32" /d "NDEBUG" "C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\win32\zlib1.rc"" 
+Assembling...
+ Assembling: ..\..\contrib\masmx86\inffas32.asm
+Assembling...
+ Assembling: ..\..\contrib\masmx86\gvmat32.asm
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3962.tmp" with contents
+[
+/nologo /MD /W3 /O2 /D "WIN32" /D "NDEBUG" /D "ASMV" /D "ASMINF" /Fo"Win32_LIB_ASM_Release/" /Fd"Win32_LIB_ASM_Release/" /FD /c 
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\adler32.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\compress.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\crc32.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\deflate.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\gzio.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\infback.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\inffast.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\inflate.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\inftrees.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\trees.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\uncompr.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3962.tmp" 
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3963.tmp" with contents
+[
+/nologo /MD /W3 /O2 /I "..\.." /D "WIN32" /D "NDEBUG" /D "ASMV" /D "ASMINF" /Fo"Win32_LIB_ASM_Release/" /Fd"Win32_LIB_ASM_Release/" /FD /c 
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\contrib\masmx86\gvmat32c.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3963.tmp" 
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3964.tmp" with contents
+[
+/nologo /out:"Win32_LIB_ASM_Release\zlib.lib" 
+".\Win32_LIB_ASM_Release\adler32.obj"
+".\Win32_LIB_ASM_Release\compress.obj"
+".\Win32_LIB_ASM_Release\crc32.obj"
+".\Win32_LIB_ASM_Release\deflate.obj"
+".\Win32_LIB_ASM_Release\gzio.obj"
+".\Win32_LIB_ASM_Release\infback.obj"
+".\Win32_LIB_ASM_Release\inffast.obj"
+".\Win32_LIB_ASM_Release\inflate.obj"
+".\Win32_LIB_ASM_Release\inftrees.obj"
+".\Win32_LIB_ASM_Release\trees.obj"
+".\Win32_LIB_ASM_Release\uncompr.obj"
+".\Win32_LIB_ASM_Release\zutil.obj"
+".\Win32_LIB_ASM_Release\gvmat32c.obj"
+".\Win32_LIB_ASM_Release\zlib1.res"
+".\Win32_LIB_ASM_Release\gvmat32.obj"
+".\Win32_LIB_ASM_Release\inffas32.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3964.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Generating Code...
+Compiling...
+gvmat32c.c
+Creating library...
+<h3>
+--------------------Configuration: libpng - Win32 LIB ASM Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3966.tmp" with contents
+[
+/nologo /MD /W3 /O2 /I "..\.." /I "..\..\..\zlib" /D "WIN32" /D "NDEBUG" /D "PNG_USE_PNGVCRD" /D "PNG_LIBPNG_SPECIALBUILD" /D "_CRT_SECURE_NO_WARNINGS" /Fo"Win32_LIB_ASM_Release/" /Fd"Win32_LIB_ASM_Release/" /FD /c 
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\png.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngerror.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngget.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngmem.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngpread.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngread.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngrio.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngrtran.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngrutil.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngset.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngtrans.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngwio.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngwrite.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngwtran.c"
+"C:\Documents and Settings\Burak575\Desktop\libpng-1.2.31\libpng-1.2.31\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3966.tmp" 
+Creating temporary file "C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3967.tmp" with contents
+[
+/nologo /out:"Win32_LIB_ASM_Release\libpng.lib" 
+".\Win32_LIB_ASM_Release\png.obj"
+".\Win32_LIB_ASM_Release\pngerror.obj"
+".\Win32_LIB_ASM_Release\pngget.obj"
+".\Win32_LIB_ASM_Release\pngmem.obj"
+".\Win32_LIB_ASM_Release\pngpread.obj"
+".\Win32_LIB_ASM_Release\pngread.obj"
+".\Win32_LIB_ASM_Release\pngrio.obj"
+".\Win32_LIB_ASM_Release\pngrtran.obj"
+".\Win32_LIB_ASM_Release\pngrutil.obj"
+".\Win32_LIB_ASM_Release\pngset.obj"
+".\Win32_LIB_ASM_Release\pngtrans.obj"
+".\Win32_LIB_ASM_Release\pngwio.obj"
+".\Win32_LIB_ASM_Release\pngwrite.obj"
+".\Win32_LIB_ASM_Release\pngwtran.obj"
+".\Win32_LIB_ASM_Release\pngwutil.obj"
+"\Documents and Settings\Burak575\Desktop\libpng-1.2.31\zlib\projects\visualc6\Win32_LIB_ASM_Release\zlib.lib"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Burak575\LOCALS~1\Temp\RSP3967.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+libpng.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

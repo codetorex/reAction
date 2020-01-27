@@ -1,0 +1,16 @@
+
+rsa = reaction skeletal animation // HMM
+rtx = reaction texture
+rcb = reaction cabinet
+rtr = reaction texture recombination
+rmp = reaction map
+rsc = reaction scene // possible
+res = reaction eco system
+ret = reaction terrain data
+
+rtx rtr den yüklenebilir olcak
+
+rmt = reaction material description
+rmd = reaction model
+
+resource dictionary

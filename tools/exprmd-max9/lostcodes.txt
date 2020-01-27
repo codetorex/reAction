@@ -1,0 +1,18 @@
+no 1
+{						
+						/*IPhyBlendedRigidVertex *vtxBlend = (IPhyBlendedRigidVertex *)vtxExport;
+
+						Point3 BlendP(0.0f, 0.0f, 0.0f);
+						for (int n = 0; n < vtxBlend->GetNumberNodes(); n++)
+						{
+							INode *Bone = vtxBlend->GetNode(n);
+							Point3 Offset = vtxBlend->GetOffsetVector(n);
+							float Weight = vtxBlend->GetWeight(n);
+							BlendP += (Bone->GetNodeTM(t) * Offset) * Weight;
+						}
+					
+						os->obj->SetPoint(i, BlendP);
+
+						mcExport->ReleaseVertexInterface(vtxExport);
+                        vtxExport = NULL;*/
+}

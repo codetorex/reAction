@@ -1,0 +1,249 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 0, 0, 186, 74
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "reAction Model Exporter"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,68,53,50,14
+    CTEXT           "reAction Model Exporter\nCopyright © 2007 \n\nInativa Corp, Burak575",IDC_STATIC,7,7,172,44,0,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,5,0,0
+ PRODUCTVERSION 0,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041f04b0"
+        BEGIN
+            VALUE "Comments", "reAction Exporter"
+            VALUE "CompanyName", "Inativa Corp."
+            VALUE "FileDescription", "reAction Exporter"
+            VALUE "FileVersion", "0, 5, 0, 0"
+            VALUE "InternalName", "reAction Exporter"
+            VALUE "LegalCopyright", "Copyright © 2008, Inativa Corp,Burak575"
+            VALUE "LegalTrademarks", "burak575"
+            VALUE "OriginalFilename", "reaction.dle"
+            VALUE "ProductName", "Discreet - a division of Autodesk, Inc.rmdexp"
+            VALUE "ProductVersion", "0, 5, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x41f, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_LIBDESC             "reAction Engine Export, developer by Inativa Corp, burak575, burak575@hotmail.com"
+    IDS_CLASSNAME           "reAction"
+    IDS_SHORTDESC           "reAction Model"
+    IDS_LONGDESC            "reAction RMD, v0.5, 3D Studio Max R9.0"
+    IDS_AUTHOR              "burak575"
+    IDS_COPYRIGHT           "Copyright © 2005, Inativa Corp, Burak575"
+    IDS_OTHER1              " "
+    IDS_OTHER2              "reAction Model"
+    IDS_EXPCAPTION          "reAction Exporter"
+    IDS_OPENFILEERR         "Cannot open file: %s"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Turkish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_TRK)
+#ifdef _WIN32
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+#pragma code_page(1254)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EXPORT DIALOGEX 0, 0, 165, 290
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "reAction Export Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,269,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,108,269,50,14
+    CONTROL         107,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,151,47
+    LTEXT           "Export Presets:",IDC_STATIC,7,58,101,8
+    GROUPBOX        "Export",IDC_STATIC,7,87,151,115
+    CONTROL         "Mesh",IDC_CMESH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,100,135,10
+    CONTROL         "Light",IDC_CLIGHT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,111,135,10
+    CONTROL         "Camera",IDC_CCAMERA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,121,135,10
+    CONTROL         "Keyframe Animation",IDC_CKEYFRAME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,131,135,10
+    CONTROL         "Physique",IDC_CPHYSIQUE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,142,135,10
+    CONTROL         "Materials",IDC_MATERIALS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,164,135,10
+    GROUPBOX        "Calculate",IDC_STATIC,7,205,151,27
+    CONTROL         "Tangent Space",IDC_CTANGENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,216,135,10
+    CONTROL         "Skeletal Animation",IDC_CSKELETAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,153,135,10
+    CONTROL         "Camera Animation",IDC_CCANIM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,175,135,10
+    PUSHBUTTON      "Model",IDC_BMOD,7,67,36,16
+    PUSHBUTTON      "Map",IDC_BMAP,45,67,32,16
+    PUSHBUTTON      "Scene",IDC_BSCENE,79,67,36,16
+    PUSHBUTTON      "Skeletal",IDC_BSKELETAL,117,67,41,16
+    CONTROL         "Entity",IDC_CENTITY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,186,135,10
+    GROUPBOX        "Material Base Directory",IDC_STATIC,7,236,151,29
+    EDITTEXT        IDC_MTLBASE,13,248,138,12,ES_AUTOHSCROLL
+END
+
+IDD_DEBUG DIALOGEX 0, 0, 280, 135
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Operation Status"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,223,114,50,14
+    LISTBOX         IDC_DBGLIST,7,7,266,103,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_EXPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        VERTGUIDE, 13
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_DEBUG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "logo.bmp"
+#endif    // Turkish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
